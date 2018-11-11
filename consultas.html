@@ -1,0 +1,32 @@
+
+<style type="text/css">
+
+	form {
+		text-align: center;
+	}
+
+</style>
+
+<html>
+	<head>
+		<p align=center><img src="https://cdn0.capterra-static.com/logos/150/2003720.png"></img></p>
+	</head>
+	<body>
+		<form action="/consulta" method="post">
+			<p>Host:</p>
+			<input type="text" name="host" class="field"/>
+			<p>Usuario:</p> 
+			<input type="text" name="usuario" class="field"/>
+			<p>Password:</p>
+			<input type="password" name="password" class="field"/>
+                        <p>Nombre BD:</p>
+                        <input type="text" name="basedatos" class="field"/>
+                        <p>Escribir consulta:</p>
+                        <input type="text" name="consulta" class="field"/>
+			<br/><br/>
+			<p class="center-content">
+			<input type="submit" class="btn btn-green" value="Enviar Datos" />
+			<input type="reset" class="btn btn-green" value="Limpiar Datos" /></p>		
+		</form>
+	</body>
+</html>

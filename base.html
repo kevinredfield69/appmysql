@@ -1,0 +1,21 @@
+
+<html>
+	<head>
+		<p align=center><img src="https://cdn0.capterra-static.com/logos/150/2003720.png"></img></p>		
+	</head>
+	<body>
+		<p align="center">Mostrando las bases de datos creadas con el usuario <strong>{{DB_USER_mysql}}:</strong></p>
+		
+		<br>
+			% for i in datos:
+				% i = str(i)
+				<p align="center">{{i}}</p>
+				<br/>
+			%end
+		<br/>
+		<form action="/">
+                        <input type="submit" value="Volver al Menu Principal" />
+                </form>
+	</body>
+</html>
+
